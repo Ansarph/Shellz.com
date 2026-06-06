@@ -3,6 +3,8 @@
 This is a GitHub Pages-ready static website for shellz.com.
 
 ## Files
+- `assets/shellz-logo.jpg` - uploaded Shellz logo used in the header and footer
+- `assets/favicon.png` - browser tab icon generated from the logo
 - `index.html` - homepage and hosting comparison page
 - `style.css` - design and responsive layout
 - `script.js` - filtering and current year
@@ -16,3 +18,4 @@ This is a GitHub Pages-ready static website for shellz.com.
 3. Update privacy/disclosure pages for your actual tools, cookies, analytics, and affiliate programs.
 4. Upload these files to the root of your GitHub repository.
 5. In GitHub: Settings → Pages → Custom domain → `shellz.com`.
+6. The logo is already wired into `index.html`, `disclosure.html`, and `privacy.html`.
