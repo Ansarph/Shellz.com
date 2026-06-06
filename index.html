@@ -1,34 +1,350 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Shellz - Best Web Hosting Reviews</title>
-  <meta name="description" content="Find the best web hosting providers with honest reviews and comparisons.">
-  <style>
-    body { font-family: Arial; margin: 40px; background:#f7f7f7; }
-    .box { background:white; padding:20px; border-radius:10px; max-width:800px; margin:auto; }
-    h1 { color:#222; }
-    .host { border-bottom:1px solid #eee; padding:10px 0; }
-    a.button { background:#007bff; color:white; padding:10px 15px; text-decoration:none; border-radius:5px; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shellz - Compare Web Hosting Deals</title>
+  <meta name="description" content="Compare beginner-friendly web hosting providers, WordPress hosting, budget hosting, VPS plans, and website hosting features." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://shellz.com/" />
+  <meta property="og:title" content="Shellz - Compare Web Hosting Deals" />
+  <meta property="og:description" content="A simple comparison guide for finding reliable web hosting for blogs, businesses, WordPress, and growing websites." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shellz.com/" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <div class="box">
-    <h1>Best Web Hosting in 2026</h1>
-    <p>Honest reviews of top hosting providers for beginners and businesses.</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <div class="host">
-      <h2>Hostinger</h2>
-      <p>Cheap and beginner-friendly hosting.</p>
-      <a class="button" href="YOUR-AFFILIATE-LINK">Get Discount</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Shellz home">
+        <span class="brand-mark">S</span>
+        <span>Shellz</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#comparison">Compare</a>
+        <a href="#guide">Buying Guide</a>
+        <a href="disclosure.html">Disclosure</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Independent hosting comparison template</p>
+          <h1>Compare web hosting plans before you buy.</h1>
+          <p class="hero-text">Shellz helps visitors compare hosting providers by pricing, features, support, performance, and beginner-friendliness.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#comparison">See Top Picks</a>
+            <a class="btn secondary" href="#guide">How to Choose</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Quick hosting checklist">
+          <h2>Quick checklist</h2>
+          <ul>
+            <li>Free SSL included</li>
+            <li>Clear renewal pricing</li>
+            <li>Daily or weekly backups</li>
+            <li>24/7 support options</li>
+            <li>Easy upgrade path</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="affiliate-note" aria-label="Affiliate disclosure summary">
+        <strong>Affiliate disclosure:</strong> Some links may be affiliate links. We may earn a commission if you buy through them, at no extra cost to you. Replace the placeholder links with your approved affiliate URLs before publishing.
+      </section>
     </div>
 
-    <div class="host">
-      <h2>Cloudways</h2>
-      <p>Powerful cloud hosting for professionals.</p>
-      <a class="button" href="YOUR-AFFILIATE-LINK">Visit Cloudways</a>
-    </div>
+    <section class="container featured" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <p class="eyebrow">Start here</p>
+        <h2 id="featured-title">Best hosting categories</h2>
+        <p>Use these category cards to send visitors to the comparison section that matches their needs.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card">
+          <span class="icon">🌱</span>
+          <h3>Best for Beginners</h3>
+          <p>Simple dashboards, guided setup, one-click WordPress, and support for first-time site owners.</p>
+        </article>
+        <article class="category-card">
+          <span class="icon">⚡</span>
+          <h3>Best for Speed</h3>
+          <p>Look for CDN, caching, NVMe storage, LiteSpeed or optimized WordPress stacks.</p>
+        </article>
+        <article class="category-card">
+          <span class="icon">💸</span>
+          <h3>Best Budget Plans</h3>
+          <p>Compare intro pricing, renewal pricing, backups, email, SSL, and hidden add-ons.</p>
+        </article>
+      </div>
+    </section>
 
-  </div>
+    <section id="comparison" class="container comparison" aria-labelledby="comparison-title">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">Comparison</p>
+          <h2 id="comparison-title">Top web hosting picks</h2>
+          <p class="muted">Demo rankings and scores. Update them with your own testing, affiliate approvals, and current pricing.</p>
+        </div>
+        <div class="filter-group" aria-label="Filter hosting providers">
+          <button class="filter-btn active" data-filter="all" type="button">All</button>
+          <button class="filter-btn" data-filter="beginner" type="button">Beginner</button>
+          <button class="filter-btn" data-filter="wordpress" type="button">WordPress</button>
+          <button class="filter-btn" data-filter="budget" type="button">Budget</button>
+          <button class="filter-btn" data-filter="vps" type="button">VPS</button>
+        </div>
+      </div>
+
+      <div class="deal-list">
+        <article class="deal-card top-pick" data-category="beginner wordpress budget">
+          <div class="rank">1</div>
+          <div class="provider-logo">BH</div>
+          <div class="deal-content">
+            <div class="deal-title-row">
+              <h3>Bluehost</h3>
+              <span class="badge">Popular pick</span>
+            </div>
+            <p>Good starter option for WordPress users, small business sites, and simple setup flows.</p>
+            <ul class="feature-list">
+              <li>WordPress-friendly setup</li>
+              <li>Free SSL on many plans</li>
+              <li>Beginner dashboard</li>
+            </ul>
+          </div>
+          <div class="score-box">
+            <span class="score">9.4</span>
+            <span class="score-label">Demo score</span>
+          </div>
+          <div class="deal-cta">
+            <a class="btn primary full" href="YOUR_BLUEHOST_AFFILIATE_LINK" rel="sponsored nofollow">Visit Site</a>
+            <a class="details-link" href="#guide">Review criteria</a>
+          </div>
+        </article>
+
+        <article class="deal-card" data-category="budget beginner wordpress">
+          <div class="rank">2</div>
+          <div class="provider-logo">HS</div>
+          <div class="deal-content">
+            <h3>Hostinger</h3>
+            <p>Useful for budget-conscious users who want an easy control panel and bundled tools.</p>
+            <ul class="feature-list">
+              <li>Affordable starter plans</li>
+              <li>Website builder options</li>
+              <li>Free SSL on many plans</li>
+            </ul>
+          </div>
+          <div class="score-box">
+            <span class="score">9.2</span>
+            <span class="score-label">Demo score</span>
+          </div>
+          <div class="deal-cta">
+            <a class="btn primary full" href="YOUR_HOSTINGER_AFFILIATE_LINK" rel="sponsored nofollow">Visit Site</a>
+            <a class="details-link" href="#guide">Review criteria</a>
+          </div>
+        </article>
+
+        <article class="deal-card" data-category="budget beginner">
+          <div class="rank">3</div>
+          <div class="provider-logo">IO</div>
+          <div class="deal-content">
+            <h3>IONOS</h3>
+            <p>Often considered for low-cost entry plans and business-focused hosting packages.</p>
+            <ul class="feature-list">
+              <li>Budget-friendly entry plans</li>
+              <li>Domain and email options</li>
+              <li>Business hosting tools</li>
+            </ul>
+          </div>
+          <div class="score-box">
+            <span class="score">9.0</span>
+            <span class="score-label">Demo score</span>
+          </div>
+          <div class="deal-cta">
+            <a class="btn primary full" href="YOUR_IONOS_AFFILIATE_LINK" rel="sponsored nofollow">Visit Site</a>
+            <a class="details-link" href="#guide">Review criteria</a>
+          </div>
+        </article>
+
+        <article class="deal-card" data-category="wordpress speed">
+          <div class="rank">4</div>
+          <div class="provider-logo">SG</div>
+          <div class="deal-content">
+            <h3>SiteGround</h3>
+            <p>Good fit to review for managed WordPress, support quality, caching, and performance tools.</p>
+            <ul class="feature-list">
+              <li>Managed WordPress features</li>
+              <li>Performance tools</li>
+              <li>Daily backup options</li>
+            </ul>
+          </div>
+          <div class="score-box">
+            <span class="score">8.9</span>
+            <span class="score-label">Demo score</span>
+          </div>
+          <div class="deal-cta">
+            <a class="btn primary full" href="YOUR_SITEGROUND_AFFILIATE_LINK" rel="sponsored nofollow">Visit Site</a>
+            <a class="details-link" href="#guide">Review criteria</a>
+          </div>
+        </article>
+
+        <article class="deal-card" data-category="budget beginner">
+          <div class="rank">5</div>
+          <div class="provider-logo">NC</div>
+          <div class="deal-content">
+            <h3>Namecheap</h3>
+            <p>Worth comparing for budget hosting, domains, email add-ons, and simple shared hosting.</p>
+            <ul class="feature-list">
+              <li>Budget shared hosting</li>
+              <li>Domain management</li>
+              <li>Email options</li>
+            </ul>
+          </div>
+          <div class="score-box">
+            <span class="score">8.7</span>
+            <span class="score-label">Demo score</span>
+          </div>
+          <div class="deal-cta">
+            <a class="btn primary full" href="YOUR_NAMECHEAP_AFFILIATE_LINK" rel="sponsored nofollow">Visit Site</a>
+            <a class="details-link" href="#guide">Review criteria</a>
+          </div>
+        </article>
+
+        <article class="deal-card" data-category="vps speed">
+          <div class="rank">6</div>
+          <div class="provider-logo">VP</div>
+          <div class="deal-content">
+            <h3>VPS Hosting Option</h3>
+            <p>Use this slot for a VPS or cloud provider if your audience includes developers or growing sites.</p>
+            <ul class="feature-list">
+              <li>Scalable server resources</li>
+              <li>Root or managed access</li>
+              <li>Better for high traffic</li>
+            </ul>
+          </div>
+          <div class="score-box">
+            <span class="score">8.5</span>
+            <span class="score-label">Demo score</span>
+          </div>
+          <div class="deal-cta">
+            <a class="btn primary full" href="YOUR_VPS_AFFILIATE_LINK" rel="sponsored nofollow">Visit Site</a>
+            <a class="details-link" href="#guide">Review criteria</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container table-section" aria-labelledby="table-title">
+      <div class="section-heading">
+        <p class="eyebrow">At a glance</p>
+        <h2 id="table-title">Feature comparison table</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Provider</th>
+              <th>Best For</th>
+              <th>SSL</th>
+              <th>Backups</th>
+              <th>Beginner Tools</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bluehost</td>
+              <td>WordPress beginners</td>
+              <td>Check plan</td>
+              <td>Check plan</td>
+              <td>Yes</td>
+              <td><a href="YOUR_BLUEHOST_AFFILIATE_LINK" rel="sponsored nofollow">Visit</a></td>
+            </tr>
+            <tr>
+              <td>Hostinger</td>
+              <td>Budget websites</td>
+              <td>Check plan</td>
+              <td>Check plan</td>
+              <td>Yes</td>
+              <td><a href="YOUR_HOSTINGER_AFFILIATE_LINK" rel="sponsored nofollow">Visit</a></td>
+            </tr>
+            <tr>
+              <td>IONOS</td>
+              <td>Small businesses</td>
+              <td>Check plan</td>
+              <td>Check plan</td>
+              <td>Yes</td>
+              <td><a href="YOUR_IONOS_AFFILIATE_LINK" rel="sponsored nofollow">Visit</a></td>
+            </tr>
+            <tr>
+              <td>SiteGround</td>
+              <td>Managed WordPress</td>
+              <td>Check plan</td>
+              <td>Check plan</td>
+              <td>Yes</td>
+              <td><a href="YOUR_SITEGROUND_AFFILIATE_LINK" rel="sponsored nofollow">Visit</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="guide" class="container guide" aria-labelledby="guide-title">
+      <div class="section-heading">
+        <p class="eyebrow">Buying guide</p>
+        <h2 id="guide-title">How to choose web hosting</h2>
+      </div>
+      <div class="guide-grid">
+        <article>
+          <h3>1. Match hosting to your site</h3>
+          <p>Shared hosting is usually enough for small blogs and simple business sites. WordPress hosting helps if your site runs WordPress. VPS or cloud hosting fits larger, faster-growing projects.</p>
+        </article>
+        <article>
+          <h3>2. Check real long-term cost</h3>
+          <p>Introductory prices can look cheap. Compare renewal prices, backup costs, security add-ons, email costs, domain renewal, and migration fees.</p>
+        </article>
+        <article>
+          <h3>3. Look for performance basics</h3>
+          <p>Prioritize modern storage, caching, CDN options, uptime history, and the ability to upgrade resources without moving your whole site.</p>
+        </article>
+        <article>
+          <h3>4. Review support and security</h3>
+          <p>For beginners, support quality can matter more than raw specifications. Look for SSL, backups, malware tools, and clear help channels.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container final-cta">
+      <h2>Ready to customize Shellz?</h2>
+      <p>Replace demo rankings, update provider details, add your affiliate links, and publish the files to your GitHub repository root.</p>
+      <a class="btn primary" href="#comparison">Back to comparison</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html"><span class="brand-mark">S</span><span>Shellz</span></a>
+        <p>Original hosting comparison content for shellz.com.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <a href="#comparison">Compare Hosting</a>
+        <a href="#guide">Buying Guide</a>
+        <a href="disclosure.html">Affiliate Disclosure</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Shellz. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
