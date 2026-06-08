@@ -1303,7 +1303,7 @@ img { max-width: 100%; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr); gap: 30px; align-items: center; }
 .eyebrow {
   margin: 0 0 8px;
-  color: var(--primary);
+  color: #2563eb;
   font-size: .76rem;
   line-height: 1.2;
   font-weight: 900;
@@ -1809,3 +1809,139 @@ td a { color: var(--primary); font-weight: 900; text-decoration: none; }
 .article-faq { padding-top: 32px; }
 .article-content .callout-warning .btn { margin: 8px 8px 0 0; }
 @media (max-width: 760px) { .article-layout { padding-top: 28px; } .article-content { padding: 18px; } }
+
+
+/* =========================================================
+   Shellz white professional header + new logo layout update
+   Content unchanged: visual/header polish only.
+   ========================================================= */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, .98) !important;
+  backdrop-filter: saturate(170%) blur(14px);
+  border-bottom: 1px solid #dfe7f2 !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, .08) !important;
+}
+.nav-wrap {
+  min-height: 74px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 12px 0 !important;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  text-decoration: none;
+  line-height: 0;
+}
+.brand-logo {
+  height: 58px !important;
+  width: auto;
+  max-width: 270px !important;
+  object-fit: contain;
+  display: block;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.site-header .main-nav a,
+.main-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 8px 13px;
+  border-radius: 12px;
+  color: #1f2a44 !important;
+  font-size: .92rem;
+  font-weight: 800;
+  letter-spacing: -.01em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color .18s ease, color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.site-header .main-nav a:hover,
+.main-nav a:hover {
+  color: #173d8f !important;
+  background: #eef5ff !important;
+  transform: translateY(-1px);
+}
+.site-header .main-nav a[aria-current="page"],
+.main-nav a[aria-current="page"] {
+  color: #173d8f !important;
+  background: #e9f1ff !important;
+  box-shadow: inset 0 0 0 1px #cfe0ff !important;
+}
+.hero, .page-hero {
+  border-top: 0 !important;
+}
+
+/* Keep footer logo clean with the new transparent artwork. */
+.footer-brand .brand-logo {
+  height: 50px !important;
+  max-width: 230px !important;
+  filter: none;
+}
+
+@media (max-width: 900px) {
+  .nav-wrap {
+    min-height: auto !important;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 12px 0 14px !important;
+  }
+  .brand {
+    align-self: center;
+  }
+  .brand-logo {
+    height: 52px !important;
+    max-width: 245px !important;
+  }
+  .main-nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    overflow: visible;
+    padding: 0;
+  }
+  .site-header .main-nav a,
+  .main-nav a {
+    min-height: 38px;
+    padding: 8px 6px;
+    font-size: .82rem;
+    line-height: 1.12;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container { width: min(100% - 22px, 1180px); }
+  .brand-logo {
+    height: 48px !important;
+    max-width: 220px !important;
+  }
+  .main-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+.hero .eyebrow,
+.page-hero .eyebrow {
+  color: #2563eb !important;
+}

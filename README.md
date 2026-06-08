@@ -109,3 +109,8 @@ Provider card and table logos were updated to use official/site-sourced brand as
 ## New article added
 
 Added `best-free-web-hosting.html` and linked it from the homepage, footer money guides, and sitemap.
+
+
+## Latest visual update
+
+The site now uses the new Shellz.com logo artwork optimized for a white header. The header was updated to a slightly larger, cleaner white professional layout with dark navigation text and improved mobile wrapping.
