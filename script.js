@@ -64,3 +64,121 @@ document.querySelectorAll('a[rel~="sponsored"], .affiliate-link').forEach((link)
     }
   });
 });
+
+
+// Coupon reveal popups
+(function () {
+  const showButtons = document.querySelectorAll('.show-code-btn');
+  if (!showButtons.length) return;
+
+  const backdrop = document.createElement('div');
+  backdrop.className = 'coupon-modal-backdrop';
+  backdrop.innerHTML = `
+    <div class="coupon-modal" role="dialog" aria-modal="true" aria-labelledby="coupon-modal-title">
+      <div class="coupon-modal-head">
+        <p id="coupon-modal-provider">Shellz coupon</p>
+        <h2 id="coupon-modal-title">Coupon code</h2>
+        <button class="coupon-modal-close" type="button" aria-label="Close coupon popup">×</button>
+      </div>
+      <div class="coupon-modal-body">
+        <p class="coupon-modal-note" id="coupon-modal-note">Copy the code, then open the provider in a new tab and apply it at checkout.</p>
+        <div class="revealed-code-box">
+          <div class="revealed-code" id="revealed-code">CODE</div>
+          <button class="copy-modal-code" type="button">Copy</button>
+        </div>
+        <div class="coupon-modal-actions">
+          <a class="btn primary" id="coupon-visit-link" href="#" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit site</a>
+          <a class="btn secondary" id="coupon-review-link" href="#">Read review</a>
+        </div>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(backdrop);
+
+  const providerEl = backdrop.querySelector('#coupon-modal-provider');
+  const titleEl = backdrop.querySelector('#coupon-modal-title');
+  const noteEl = backdrop.querySelector('#coupon-modal-note');
+  const codeEl = backdrop.querySelector('#revealed-code');
+  const visitLink = backdrop.querySelector('#coupon-visit-link');
+  const reviewLink = backdrop.querySelector('#coupon-review-link');
+  const closeBtn = backdrop.querySelector('.coupon-modal-close');
+  const copyBtn = backdrop.querySelector('.copy-modal-code');
+
+  let activeCode = '';
+
+  function openModal(button) {
+    const provider = button.dataset.provider || 'Provider';
+    const title = button.dataset.title || 'Coupon code';
+    const code = button.dataset.code || '';
+    const url = button.dataset.url || '#';
+    const review = button.dataset.review || 'reviews.html';
+    const realCode = button.dataset.realCode === 'true';
+
+    activeCode = code;
+
+    providerEl.textContent = provider;
+    titleEl.textContent = title;
+    codeEl.textContent = code;
+    visitLink.href = url;
+    reviewLink.href = review;
+
+    if (realCode) {
+      noteEl.textContent = 'Copy this code, open the provider in a new tab, and apply it at checkout. Verify the final total before buying.';
+      copyBtn.style.display = '';
+      copyBtn.textContent = 'Copy';
+    } else {
+      noteEl.textContent = 'This offer may not require a public code. Open the provider page and verify the live deal at checkout.';
+      copyBtn.style.display = 'none';
+    }
+
+    backdrop.classList.add('active');
+    closeBtn.focus();
+  }
+
+  function closeModal() {
+    backdrop.classList.remove('active');
+  }
+
+  showButtons.forEach((button) => {
+    button.addEventListener('click', () => openModal(button));
+  });
+
+  copyBtn.addEventListener('click', async () => {
+    if (!activeCode) return;
+    try {
+      await navigator.clipboard.writeText(activeCode);
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => { copyBtn.textContent = 'Copy'; }, 1500);
+    } catch (error) {
+      copyBtn.textContent = 'Copy manually';
+      setTimeout(() => { copyBtn.textContent = 'Copy'; }, 1500);
+    }
+  });
+
+  closeBtn.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', (event) => {
+    if (event.target === backdrop) closeModal();
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && backdrop.classList.contains('active')) {
+      closeModal();
+    }
+  });
+
+  document.querySelectorAll('.coupon-details-toggle').forEach((toggle) => {
+    toggle.addEventListener('click', () => {
+      const details = toggle.nextElementSibling;
+      if (!details) return;
+      const isHidden = details.hasAttribute('hidden');
+      if (isHidden) {
+        details.removeAttribute('hidden');
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.textContent = 'Hide details';
+      } else {
+        details.setAttribute('hidden', '');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.textContent = 'See details';
+      }
+    });
+  });
+})();

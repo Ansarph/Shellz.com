@@ -127,3 +127,13 @@ Added `start-a-website-under-25.html`:
 "I Tried to Start a Website for Under $25: What You Can Actually Get"
 
 The page includes practical budget guidance, checkout add-on warnings, internal links to coupon pages, FAQ schema, Article schema, and sitemap entry.
+
+
+## Coupon card popup update
+
+Updated coupon pages and the main promo codes page with marketplace-style coupon cards, “Show Code” / “Get Deal” buttons, JavaScript coupon reveal popups, copy-code functionality, and expandable coupon details.
+
+
+## Coupon layout update
+
+The promo codes page was updated so the coupon intro and coupon cards display in one vertical panel instead of a side-by-side layout.
