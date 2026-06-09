@@ -137,3 +137,8 @@ Updated coupon pages and the main promo codes page with marketplace-style coupon
 ## Coupon layout update
 
 The promo codes page was updated so the coupon intro and coupon cards display in one vertical panel instead of a side-by-side layout.
+
+
+## Coupon style cache fix
+
+Added `coupon-cards.css` and cache-busted `style.css` / `script.js` links so the coupon card layout loads correctly on the live website even if the browser cached the older stylesheet.
