@@ -114,3 +114,16 @@ Added `best-free-web-hosting.html` and linked it from the homepage, footer money
 ## Latest visual update
 
 The site now uses the new Shellz.com logo artwork optimized for a white header. The header was updated to a slightly larger, cleaner white professional layout with dark navigation text and improved mobile wrapping.
+
+
+## Expanded article content update
+
+The article and guide pages were expanded with more natural, human-style buyer notes, practical checkout warnings, long-term cost reminders, coupon verification guidance, and decision checklists. The latest favicon and logo updates were preserved.
+
+
+## New article added
+
+Added `start-a-website-under-25.html`:
+"I Tried to Start a Website for Under $25: What You Can Actually Get"
+
+The page includes practical budget guidance, checkout add-on warnings, internal links to coupon pages, FAQ schema, Article schema, and sitemap entry.
