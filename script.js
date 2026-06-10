@@ -164,21 +164,5 @@ document.querySelectorAll('a[rel~="sponsored"], .affiliate-link').forEach((link)
       closeModal();
     }
   });
-
-  document.querySelectorAll('.coupon-details-toggle').forEach((toggle) => {
-    toggle.addEventListener('click', () => {
-      const details = toggle.nextElementSibling;
-      if (!details) return;
-      const isHidden = details.hasAttribute('hidden');
-      if (isHidden) {
-        details.removeAttribute('hidden');
-        toggle.setAttribute('aria-expanded', 'true');
-        toggle.textContent = 'Hide details';
-      } else {
-        details.setAttribute('hidden', '');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.textContent = 'See details';
-      }
-    });
-  });
+});
 })();

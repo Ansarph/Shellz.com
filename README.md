@@ -168,3 +168,18 @@ Updated coupon pages with the latest checked deals:
 ## Public coupon page cleanup
 
 Removed visible internal coupon scan/update tables from coupon pages. Kept the latest coupon codes and added a small visitor-facing last-checked note instead.
+
+
+## Removed coupon details bullets
+
+Removed the expandable 'See details' bullet notes from coupon cards for a cleaner visitor-facing coupon page.
+
+
+## Bluehost E-E-A-T review update
+
+Improved `bluehost-review.html` with a human-style Bluehost review, E-E-A-T notes, official source links, pricing and renewal checklist, pros/cons, auto-applied deal card, FAQ schema, Review schema, and updated sitemap lastmod.
+
+
+## Remaining hosting reviews E-E-A-T update
+
+Improved Hostinger, IONOS, SiteGround, Namecheap, and DreamHost review pages with human-style E-E-A-T content, official source links, buyer checklists, pros/cons, coupon cards, FAQ schema, Review schema, and updated sitemap lastmod.
