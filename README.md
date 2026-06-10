@@ -152,3 +152,19 @@ Improved `namesilo-review.html` with a human-style review, E-E-A-T notes, offici
 ## HostGator E-E-A-T review update
 
 Improved `hostgator-review.html` with a human-style review, E-E-A-T notes, official source links, GATORMODEL coupon reveal card, pricing checklist, pros/cons, FAQ schema, Review schema, and updated sitemap lastmod.
+
+
+## June 10 coupon scan update
+
+Updated coupon pages with the latest checked deals:
+- Namecheap official monthly coupon: SUMSTARTDOT
+- Hostinger official coupon-page code: COUPONSPAGE
+- Bluehost official June deal note: up to 60% off selected hosting / many deals auto-apply
+- DreamHost official promo page note: up to 83% off selected plans
+- HostGator added SNAPPY as a reported code to test, while keeping GATORMODEL
+- NameSilo codes kept: DISCOUNT10, NAMESILO10, A10
+
+
+## Public coupon page cleanup
+
+Removed visible internal coupon scan/update tables from coupon pages. Kept the latest coupon codes and added a small visitor-facing last-checked note instead.

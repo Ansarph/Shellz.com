@@ -2335,3 +2335,32 @@ td a { color: var(--primary); font-weight: 900; text-decoration: none; }
   color: #2563eb;
   font-weight: 800;
 }
+
+/* Latest coupon scan update blocks */
+.coupon-scan-update,
+.latest-coupon-cards {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px;
+  margin: 26px auto;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .06);
+}
+.coupon-scan-update h2,
+.latest-coupon-cards h2 {
+  margin-top: 0;
+}
+.coupon-scan-update table td,
+.coupon-scan-update table th {
+  vertical-align: top;
+}
+
+/* Visitor-facing coupon note */
+.coupon-public-note {
+  margin: 18px 0 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f8fbff;
+  color: var(--muted);
+}
