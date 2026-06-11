@@ -183,3 +183,8 @@ Improved `bluehost-review.html` with a human-style Bluehost review, E-E-A-T note
 ## Remaining hosting reviews E-E-A-T update
 
 Improved Hostinger, IONOS, SiteGround, Namecheap, and DreamHost review pages with human-style E-E-A-T content, official source links, buyer checklists, pros/cons, coupon cards, FAQ schema, Review schema, and updated sitemap lastmod.
+
+
+## Domain vs Hosting vs Email E-E-A-T guide
+
+Added `domain-vs-hosting-vs-email.html` with a detailed human-style beginner article covering domain registration, hosting types, DNS, SSL, professional email, purchase order, common mistakes, decision tables, FAQ schema, Article schema, official sources, homepage/internal links, footer links, and sitemap entry.
