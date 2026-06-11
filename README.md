@@ -188,3 +188,18 @@ Improved Hostinger, IONOS, SiteGround, Namecheap, and DreamHost review pages wit
 ## Domain vs Hosting vs Email E-E-A-T guide
 
 Added `domain-vs-hosting-vs-email.html` with a detailed human-style beginner article covering domain registration, hosting types, DNS, SSL, professional email, purchase order, common mistakes, decision tables, FAQ schema, Article schema, official sources, homepage/internal links, footer links, and sitemap entry.
+
+
+## WebHostingPad review and coupon
+
+Added `webhostingpad-review.html` and `webhostingpad-coupon.html` using the affiliate link `https://www.webhostingpad.com/8150.html`. The official provider coupon is `FREEDOMAIN`, for eligible first-year domain registration. The pages explain the maximum published value, 30-day claim window, renewal cost, coupon-combination restrictions, refund exclusions, and affiliate tracking warning.
+
+
+## COIN.HOST review and voucher
+
+Added `coin-host-review.html` and `coin-host-voucher.html` with affiliate link `https://coin.host/?ref=osloginsupport` and the user-supplied 5% voucher `HTY1QFSJ3K`. The review covers Swiss dedicated servers, AMD SEV confidential computing, crypto payments, DDoS protection, data-center claims, security, SLA, terms, refund limits, backup responsibility, verification clauses, acceptable-use restrictions, and the prohibition on cryptocurrency mining.
+
+
+## Zalvis review and promotions
+
+Added `zalvis-review.html` and `zalvis-coupon.html` using affiliate link `https://my.zalvis.com/aff/998206042cdb6351a465a4d8afde83a9ad789203-`. Official promotions found: 50% first-time hosting promotional pricing and two months free with eligible annual billing. No public reusable coupon-code string was found, so the site uses Get Deal cards and recommends generating a custom code from the Zalvis affiliate dashboard.
