@@ -20,7 +20,7 @@ This package contains an expanded SEO-friendly static website for `shellz.com`.
 ## Before publishing
 
 1. Non-affiliate provider placeholders have been replaced with official provider websites. HostGator and NameSilo keep the user-provided affiliate/referral links.
-2. Replace `your-email@example.com` with your real business email.
+2. Business email updated to `info@shellz.com`.
 3. Verify every provider's current prices, coupon codes, renewal prices, plan limits, and affiliate program rules.
 4. Add original screenshots, speed tests, uptime notes, and support test notes to improve trust.
 5. Upload all files in this folder to the root of your GitHub repository.
@@ -203,3 +203,148 @@ Added `coin-host-review.html` and `coin-host-voucher.html` with affiliate link `
 ## Zalvis review and promotions
 
 Added `zalvis-review.html` and `zalvis-coupon.html` using affiliate link `https://my.zalvis.com/aff/998206042cdb6351a465a4d8afde83a9ad789203-`. Official promotions found: 50% first-time hosting promotional pricing and two months free with eligible annual billing. No public reusable coupon-code string was found, so the site uses Get Deal cards and recommends generating a custom code from the Zalvis affiliate dashboard.
+
+
+## Coupon button JavaScript and layout fix
+
+Updated `script.js` to fix a coupon modal JavaScript closing-bracket error and replace the coupon logic with delegated click handling. Real coupon codes now open a copyable modal, while Get Deal cards open the provider in a new tab. Updated `coupon-cards.css` with a cleaner responsive coupon-card layout and refreshed all HTML cache-busting query strings. Contact email was updated to `info@shellz.com`.
+
+
+## Cloudways review and official promo
+
+Added `cloudways-review.html` and `cloudways-coupon.html` using affiliate link `https://www.cloudways.com/en`. The pages cover Cloudways Flexible, Cloudways Autonomous, managed cloud hosting, WordPress/WooCommerce use cases, pay-as-you-go pricing notes, official auto-applied 30% promotion, free migrations, pricing-page wording inconsistency, pros/cons, FAQ schema, Review schema, promo card, reviews page card, promo-codes page card, footer links, and sitemap entries.
+
+
+## Reviews page layout fix
+
+Fixed `reviews.html` layout where COIN.HOST, Zalvis, and Cloudways cards were accidentally inserted outside the `.container.reviews-stack` section. The cards now sit inside the main reviews container, so they align with the other review cards instead of stretching full width. Added a small CSS safety rule for the reviews stack.
+
+
+## New-Gen Hosting monthly hub
+
+Added `new-gen-hosting.html` and `trending-hosting-june-2026.html`.
+
+Purpose:
+- Track modern hosting providers separately from traditional shared hosting.
+- Cover managed cloud hosting, premium WordPress hosting, WooCommerce hosting, AI website builder hosting, managed VPS, developer/app hosting, and green hosting.
+- Use one curated monthly hub instead of thin mass-generated pages.
+- Update the main hub monthly and keep a simple monthly archive page.
+
+First providers:
+Cloudways, Kinsta, Rocket.net, ScalaHosting, Nexcess, WP Engine, Hostinger, GreenGeeks, Vercel, and Netlify.
+
+Also updated:
+- Main navigation across pages
+- Homepage New-Gen Hosting callout
+- Reviews page CTA
+- Coupon page CTA
+- Sitemap entries
+- CSS styling for New-Gen provider cards
+
+
+## Homepage category map
+
+Added a Top10-style homepage category map for hosting and domain-related categories only.
+
+Categories include:
+- Web Hosting
+- New-Gen Hosting
+- Domain Names
+- Hosting Coupons
+- Cheap Hosting
+- WordPress Hosting
+- VPS & Cloud
+- Free Hosting
+- Email Setup
+- Website Builders
+- WooCommerce
+- Developer Hosting
+
+Updated `index.html` and `style.css`.
+
+
+## Homepage category map layout fix
+
+Adjusted the homepage category map text size and card layout so titles and links no longer overlap or feel cramped.
+
+Changes:
+- Reduced hero heading size slightly
+- Changed the category cards to a cleaner stacked layout
+- Wide cards now span two columns without squeezing link text
+- Reduced icon size and card text size for better balance
+- Improved tablet and mobile responsiveness
+- Bumped CSS cache version to `20260613-categorymapfix`
+
+
+## Clean homepage category map redesign
+
+Replaced the first Top10-style category map with a cleaner Shellz category panel after visual review. The new design uses uniform cards, smaller text, clear descriptions, and pill-style links to avoid text overlap and improve desktop/mobile readability.
+
+
+## Homepage hero removed
+
+Removed the top homepage hero section ("Compare web hosting before you buy") and made the hosting/domain category map the first main section below the header. The affiliate disclosure remains on the homepage but is moved below the category map for a cleaner first screen.
+
+
+## Homepage design upgrade
+
+Improved the category-first homepage with:
+- Strong headline and three hero buttons.
+- Top 5 Hosting Picks section.
+- Latest Hosting Coupons & Official Promos section.
+- Why Trust Shellz section.
+- Better spacing and responsive layout.
+
+
+## Equal-size homepage category cards
+
+Updated the homepage category grid so all hosting/domain category cards have the same width and height. Removed the larger featured Web Hosting card style and forced a clean 4-column desktop grid, 2-column tablet grid, and 1-column mobile grid.
+
+
+## Indexed under-$25 page support cluster
+
+After `start-a-website-under-25.html` was indexed in Google, this update builds an internal SEO support cluster around it.
+
+Added:
+- `how-to-start-a-website-for-beginners.html`
+- `best-hosting-under-25.html`
+
+Updated internal links from:
+- Homepage
+- `start-a-website.html`
+- `start-a-website-under-25.html`
+- `best-cheap-web-hosting.html`
+- `domain-vs-hosting-vs-email.html`
+- Footer money guides
+- `sitemap.xml`
+
+Purpose:
+Strengthen topical relevance around beginner website setup, cheap hosting, domain basics, and coupon-aware buying decisions.
+
+
+## New-Gen source box layout fix
+
+Fixed `new-gen-hosting.html` and `trending-hosting-june-2026.html` where the official source checklist card was not centered. The issue happened because `container` and `source-box` were used on the same element, and the `source-box` margin overrode the normal centered container margin.
+
+
+## New-Gen public page cleanup
+
+Removed internal editorial sections from `new-gen-hosting.html`:
+- "Pages Shellz should create from this hub"
+- "Official source checklist for monthly updates"
+
+These were moved to `new-gen-monthly-update-checklist.md` so visitors see a cleaner buyer-facing page while Shellz still keeps an internal monthly update checklist.
+
+
+## Contact page refresh
+
+Updated `contact.html` with a professional contact layout using `info@shellz.com`.
+
+Includes:
+- Email contact box
+- Correction request button
+- Coupon update request button
+- Provider submission section
+- What to include in your message
+- Quick links to corrections policy, editorial policy, disclosure, methodology, and coupons
+- ContactPage schema
