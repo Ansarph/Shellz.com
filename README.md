@@ -372,3 +372,18 @@ Updated:
 
 Article angle:
 Compare AI website builders, WordPress hosting, and GitHub Pages for beginners, with practical Shellz experience from building a lean static website and clear upgrade advice.
+
+
+## New-Gen Hosting coupon buttons
+
+Updated `new-gen-hosting.html` with a visitor-facing deals section:
+- Cloudways: Get Deal, 30% off auto-applied official promo
+- Hostinger: Get Deal, official coupon page
+- Rocket.net: Show Code, LAUNCH
+- Nexcess: Get Deal, official coupon page
+- WP Engine: Get Deal / first-year offer may vary
+- Kinsta: Read Policy / no public coupon code
+- Vercel: View Plan / free plan and credits
+- Netlify: View Plan / free plan and open-source plan
+
+Also added quick deal jump buttons to New-Gen provider cards and a pointer section on `promo-codes.html`.

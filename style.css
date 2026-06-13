@@ -3682,3 +3682,49 @@ body.homepage-category-first .site-header {
 .eeat-article h2 {
   scroll-margin-top: 110px;
 }
+
+
+/* New-Gen hosting deals section */
+.newgen-deals-section {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.newgen-offer-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.newgen-offer-card {
+  border-left: 6px solid #0f766e;
+}
+
+.newgen-offer-card .coupon-main h3 {
+  margin: 0 0 8px;
+  color: #0f172a;
+  font-size: clamp(1.05rem, 1.8vw, 1.28rem);
+  line-height: 1.25;
+}
+
+.newgen-deal-jump {
+  justify-content: center;
+  min-height: 42px;
+}
+
+.newgen-coupon-hub-cta {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 24px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 100%);
+  border: 1px solid #bfe4dc;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, .07);
+}
+
+@media (max-width: 860px) {
+  .newgen-offer-card {
+    border-left: 0;
+    border-top: 6px solid #0f766e;
+  }
+}
