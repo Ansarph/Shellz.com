@@ -353,3 +353,22 @@ Includes:
 ## Homepage budget guide label update
 
 Changed the homepage budget cluster label from "Google-indexed Shellz guide" to "Beginner budget guide" for a cleaner visitor-facing heading.
+
+
+## AI Website Builder vs WordPress vs GitHub Pages article
+
+Added `ai-website-builder-vs-wordpress-vs-github-pages.html` as a unique Shellz E-E-A-T guide targeting beginner website platform comparisons.
+
+Updated:
+- Homepage latest guide section
+- Start a Website page
+- Under-$25 website page
+- Hosting Under $25 page
+- Domain vs Hosting vs Email page
+- New-Gen Hosting page
+- Footer guide links
+- `sitemap.xml`
+- CSS styling
+
+Article angle:
+Compare AI website builders, WordPress hosting, and GitHub Pages for beginners, with practical Shellz experience from building a lean static website and clear upgrade advice.

@@ -3657,3 +3657,28 @@ body.homepage-category-first .site-header {
     justify-content: center;
   }
 }
+
+
+/* AI Builder vs WordPress vs GitHub Pages article */
+.eeat-article .content-panel {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.latest-guide-home {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 26px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 100%);
+  border: 1px solid #bfe4dc;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, .07);
+}
+
+.eeat-article .source-box ul {
+  margin-bottom: 0;
+}
+
+.eeat-article h2 {
+  scroll-margin-top: 110px;
+}
