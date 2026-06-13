@@ -348,3 +348,8 @@ Includes:
 - What to include in your message
 - Quick links to corrections policy, editorial policy, disclosure, methodology, and coupons
 - ContactPage schema
+
+
+## Homepage budget guide label update
+
+Changed the homepage budget cluster label from "Google-indexed Shellz guide" to "Beginner budget guide" for a cleaner visitor-facing heading.
